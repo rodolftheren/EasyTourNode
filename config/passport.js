@@ -1,4 +1,4 @@
-var LocalStrategy   = require('passport-local').Strategy;
+var LocalStrategy  = require('passport-local').Strategy;
 
 const cifrador = require('../modules/cifrado');
 var mysql = require('mysql');
