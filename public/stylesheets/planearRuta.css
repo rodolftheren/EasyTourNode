@@ -1,0 +1,374 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/10/2018, 04:18:09 PM
+    Author     : AMD
+*/
+
+html, body{
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    
+    width: 100%;
+    background-color: #ECEEF0;
+    
+}
+
+header{
+
+    width: 100%;
+    height: 50px;
+    background-color: rgb(39, 75, 148);
+    color: white;
+
+}
+
+header > div{
+
+    width: 180px;
+    height: 50px;
+    padding-left: 20px;
+    float: left;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Amaranth-Regular;
+
+}
+
+header > nav{
+
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin: 0px;
+    margin-left: 50px;
+
+}
+
+header > nav > ul {
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+}
+
+header > nav > ul > li{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding-right: 50px;
+    padding-bottom: 0px;
+
+}
+
+header > nav > ul > li > a{
+
+    text-decoration: none;
+    font-family: CabinCondensed-Regular;
+    color: white;
+
+}
+
+header > nav > ul > li > a > div{
+
+    width: 100%;
+    height: 5px;
+
+}
+
+header > nav > ul > li > a:hover > div{
+
+    width: 100%;
+    height: 5px;
+    background-color: #FF8300;
+
+}
+
+section{
+    
+    whith: 100%;
+    height: 100%;
+    
+}
+
+article#titRut{
+    
+    with: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: KeepCalm-Medium;
+    
+}
+
+article#titRut > h1{
+    
+    font-family: KeepCalm-Medium;
+    color: #DF7300;
+    
+}
+
+#ubicacion{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+    
+}
+
+#ubicacion > form{
+    
+    padding: 10px;
+    
+}
+
+#ubicacion > form > select{
+    
+    width: 400px;
+    padding: 10px;
+    
+}
+
+#ubicacion > form > select > option{
+    
+    width: 400px;
+    padding: 10px;
+    border: solid 1px rgb(39, 75, 148);
+    border-radius: 0px 5px 5px 0px;
+    
+}
+
+#ubicacion > form > select > option:focus{
+    
+    width: 400px;
+    padding: 10px;
+    border: solid 1px rgb(39, 75, 148); 
+    outline: none;
+    
+}
+
+input[type="submit"]{
+    
+    padding: 10px;
+    background: none;
+    border: solid 2px rgb(39, 75, 148);
+    color: rgb(39, 75, 148);
+    border-radius: 0px 5px 5px 0px;
+    
+}
+
+input[type="submit"]:hover{
+    
+    padding: 10px;
+    background: rgb(39, 75, 148);
+    border: solid 2px rgb(39, 75, 148);
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+
+div[class="lugares"]{
+    
+    whidth: 600px;
+    height: 420px;
+    background-color: rgb(39, 75, 148);
+    margin: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div[class="lugares"] > div{
+    
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+
+img{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 0px 0px 5px;
+    filter: brightness(0.5);
+    
+}
+
+.infoLuga{
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    color: white;
+    
+}
+
+.infoLuga > input[type="button"]{
+    
+    whidth: 40px;
+    hight: 40px;
+    border: solid 2px white; 
+    position: relative;
+    background-color: rgb(39, 75, 148); 
+    float: right;
+    border-radius: 50%;
+    color: white;
+    float: left;
+    
+}
+
+.infoLuga > input[type="button"]:hover{
+    
+    whidth: 40px;
+    hight: 40px;
+    border: solid 2px white; 
+    position: relative;
+    background-color: white; 
+    float: right;
+    border-radius: 50%;
+    color: rgb(39, 75, 148);
+    float: left;
+    
+}
+
+.infoLuga > input[type="button"]:focus{
+    
+    whidth: 40px;
+    hight: 40px;
+    border: solid 2px white; 
+    position: relative;
+    background-color: white; 
+    float: right;
+    border-radius: 50%;
+    color: rgb(39, 75, 148);
+    float: left;
+    outline: none;
+    
+}
+
+.infoLuga > h2{
+    
+    font-family: KeepCalm-Medium;
+    color: #DF7300;
+    
+}
+
+.infoLuga > .infoEs{
+    
+    font-family: CabinCondensed-Regular;
+    
+}
+
+.infoLuga > h4{
+    
+    font-family: CabinCondensed-Regular;
+    color: #DF7300;
+    
+}
+
+.infoLuga > div > h4{
+    
+    font-family: CabinCondensed-Regular;
+    color: #DF7300;
+    
+}
+
+.infoEs{
+    
+    text-align: justify;
+    
+}
+
+div#guRut{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div#guRut > input[type="button"]{
+    
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: solid 2px rgb(39, 75, 148);
+    background: none;
+    color:  rgb(39, 75, 148);
+    
+}
+
+div#guRut > input[type="button"]:hover{
+    
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: solid 2px rgb(39, 75, 148);
+    background: rgb(39, 75, 148);
+    color:  white;
+    
+}
+
+h1{
+
+    font-size: 2.5em;
+
+}
+
+h2{
+
+    font-size: 1.7em;
+
+}
+
+h3{
+
+    font-size: 1.3em;
+
+}
+
+h4{
+
+    font-size: 1em;
+
+}
+
+h5{
+
+    font-size: 0.8em;
+
+}
+
+h6{
+
+    font-size: 0.6em;
+
+}

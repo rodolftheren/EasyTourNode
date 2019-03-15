@@ -1,0 +1,131 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+footer{
+
+	background: black;
+	color: white;
+	width: 100%;
+	height: 220px;
+	font-family: 'Oxygen', sans-serif;
+	bottom: 100%;
+
+}
+
+footer > section{
+
+	width: 33.33%;
+	height: 80%;
+	float: left;
+	display: inline;
+	padding: 5px;
+	box-sizing: border-box;
+
+}
+
+footer section ul li{
+
+	list-style: none;
+
+}
+
+li{
+
+	padding-bottom: 10px;
+
+}
+
+a[class="infLeg"]{
+
+	text-decoration: none;
+	color: white;
+
+}
+
+a[class="infLeg"]:hover{
+
+	color: #FF8300;;
+	text-decoration: underline;
+
+}
+
+
+img[class="redes"]{
+
+	height: 40px;
+	width: 40px;
+	background: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 50%;
+	border: solid 1px black;
+
+}
+
+
+img[class="redes"]:hover{
+
+	height: 45px;
+	width: 45px;
+	background: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: #FF8300;
+
+}
+
+section#infLeg{
+
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.titulo{
+
+	width: 100%;
+	height: 40%;
+	font-size: 1.4rem;
+	color: #274B94;
+
+}
+
+.contenido{
+
+	width: 100%;
+	height: 60%;
+	box-sizing: border-box;
+	padding-left: 15px;
+
+}
+
+#redes{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#butReg{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#logRed{
+
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+
+}

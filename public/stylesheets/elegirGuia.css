@@ -1,0 +1,230 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/10/2018, 04:26:09 PM
+    Author     : AMD
+*/
+
+html, body{
+    
+    padding: 0px;
+    margin: 0px; 
+    
+}
+
+body{
+    
+    width: 100%;
+    background-color: #ECEEF0; 
+        
+}
+
+header{
+
+    width: 100%;
+    height: 50px;
+    background-color: rgb(39, 75, 148);
+    color: white;
+    box-shadow: -1px -1px 20px black;
+    
+}
+
+header > div{
+
+    width: 180px;
+    height: 50px;
+    padding-left: 20px;
+    float: left;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Amaranth-Regular;
+
+}
+
+header > nav{
+
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin: 0px;
+    margin-left: 50px;
+
+}
+
+header > nav > ul {
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+}
+
+header > nav > ul > li{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding-right: 50px;
+    padding-bottom: 0px;
+
+}
+
+header > nav > ul > li > a{
+
+    text-decoration: none;
+    font-family: CabinCondensed-Regular;
+    color: white;
+
+}
+
+header > nav > ul > li > a > div{
+
+    width: 100%;
+    height: 5px;
+
+}
+
+header > nav > ul > li > a:hover > div{
+
+    width: 100%;
+    height: 5px;
+    background-color: #FF8300;
+
+}
+
+section{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+section > article{
+    
+    width: 45%;
+    margin: 30px;
+    background-color: rgb(39, 75, 148); 
+    border-radius: 5px;
+    padding: 30px;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: -1px -1px 20px black;
+        
+}
+
+.infGui{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.infGui > h2{
+    
+    text-align: center;
+    font-family: KeepCalm-Medium;
+    color: #DF7300;
+    
+}
+
+.infGui > div{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.infGui > div > h3{
+    
+    text-align: lefth;
+    font-family: CabinCondensed-Regular;
+    color: #DF7300;
+    float: left;
+    
+}
+
+.infGui > div > h3[class="informacion"]{
+    
+    text-align: lefth;
+    font-family: CabinCondensed-Regular;
+    color: white;
+    float: left;
+    
+}
+
+.infGui > a{
+    
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: CabinCondensed-Regular;
+    
+}
+
+.infGui > a:hover{
+    
+    text-decoration: none;
+    color: white;
+    border: solid 2px #DF7300;
+    background-color: #DF7300;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: CabinCondensed-Regular;
+    
+}
+
+h1{
+
+    font-size: 2.5em;
+
+}
+
+h2{
+
+    font-size: 1.7em;
+
+}
+
+h3{
+
+    font-size: 1.3em;
+
+}
+
+h4{
+
+    font-size: 1em;
+
+}
+
+h5{
+
+    font-size: 0.8em;
+
+}

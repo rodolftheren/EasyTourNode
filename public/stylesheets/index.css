@@ -1,0 +1,544 @@
+*{
+
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+html, body{
+
+	height: 100%;
+	width: 100%;
+
+}
+
+body{
+
+	background-color: #E1E1E2;
+
+}
+
+div#background{
+
+	width: 100%;
+	height: 100%;
+	color: white;
+	background-image: url('../RESOURCE/fondos/fondo-Inicio.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+header{
+
+	width: 100%;
+	height: 8%;
+	background: rgba(0,0,0,0.5);
+
+}
+
+header > nav{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	height: 100%;
+	width: 400px;
+
+}
+
+header > nav > *{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+header > nav > ul{
+
+	width: 400px;
+	height: 25px;
+
+}
+
+header > nav > ul > li{
+
+	margin-left: 15px;
+	margin-right: 15px;
+	list-style: none;
+	text-decoration: none;
+	width: 97;
+	height: 25px;
+
+}
+
+header > nav > ul > li > div{
+
+	width: 100%;
+	height: 5px;
+
+}
+
+header > nav > ul > li > a{
+	
+	text-decoration: none;
+	color: white;
+	font-family: KeepCalm-Medium;
+
+}
+
+header > nav > ul > li:hover > a{
+
+	color: #788FBC;
+
+}
+
+header > nav > ul > li:hover > div{
+	
+	background-color: #FF8300;
+
+}
+
+form{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+img{
+
+	width: 20px;
+	height: 20pX;
+	background-color: white;
+
+}
+
+h1{
+
+	font-size: 2.5em;
+
+}
+
+h2{
+
+	font-size: 1.7em;
+
+}
+
+h3{
+
+	font-size: 1.4em;
+
+}
+
+h4{
+
+	font-size: 1em;
+
+}
+
+h5{
+
+	font-size: 0.8em;
+
+}
+
+h6{
+
+	font-size: 0.6em;
+
+}
+
+input[type="text"], input[type="password"]{
+
+	width: 250px;
+	background: none;
+	border: solid 2px white;
+	background-color: 5px;
+	color: white;
+	padding: 10px;
+
+}
+
+input[type="text"]:hover, input[type="password"]:hover{
+
+	border-color: #FF8300;
+
+}
+
+input[type="text"]:hover + img, input[type="password"]:hover + img{
+
+	background-color: #FF8300;
+
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+
+	outline: none;
+	border-color: #274B94; 
+
+}
+
+input[type="text"]:focus + img, input[type="password"]:focus + img{
+
+	background-color: #274B94;
+	fill: #274B94;
+
+}
+
+
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder{
+
+	color: white; 
+
+}
+
+input[type="submit"], input[type="button"]{
+
+	width: 100px;
+	background: none;
+	border: solid 2px white;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+
+}
+
+
+input[type="submit"]:hover, input[type="button"]:hover{
+
+	background-color: #274B94;
+	border-color: #274B94;
+
+
+}
+
+input[type="submit"]:focus, input[type="button"]:focus{
+
+	outline: none;
+
+}
+
+bdi#palabraClave{
+
+	color: #FF8300;
+	font-family: CabinCondensed-Bold;
+
+}
+
+section#inicio{
+
+	height: 92%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+article#titulo{
+
+	height: 100%;
+	width: 50%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+article#formularioInicio{
+
+	height: 100%;
+	width: 50%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+div#error{
+
+	margin-bottom: 10px;
+	width: 329px;
+	padding-left: 40px;
+	
+
+}
+
+section#infGen{
+
+	width: 100%;
+	height: 220%;	
+
+}
+
+section#infGen > article{
+
+	width: 100%;
+	height: 50%;
+	float: left;		
+
+}
+
+section > article > div > h1{
+
+	color: #274B94;
+	font-family: KeepCalm-Medium;
+
+}
+
+section > article > div > h2 > p{
+
+	font-family: CabinCondensed-Regular;
+
+}
+
+article#queEs > div{
+
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+article#queEs > div > h1{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+
+article#queEs > div > h2{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+article#queEs > div > h2 > p{
+
+	box-sizing: border-box;
+	margin: 10%;
+
+}
+
+article#funcionamiento{
+
+	background-image: url('../RESOURCE/imagenes/bellasArtes.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+article#funcionamiento > div {
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+
+article#funcionamiento > div > div{
+
+	width: 50%;
+	height: 100%;
+	
+}
+
+div#titFun{
+
+	float: left;
+
+}
+
+div#titFun > h1{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: KeepCalm-Medium;
+	color:  #274B94;
+
+}
+
+div#infFun{
+
+	float: right;
+	text-align: justify;
+
+}
+
+div#infFun > h2{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: CabinCondensed-Regular;
+	color: white;
+
+}
+
+div#infFun > h2 > p{
+
+	box-sizing: border-box;
+	margin: 10%;
+
+}
+
+div#infFun > h2 > p > a{
+
+	color: #88888B;
+
+}
+
+.jusText{
+
+	text-align: justify;
+
+}
+
+
+
+#botonesInicio{
+
+	width: 250px;
+        
+        
+}
+
+#inEnt{
+
+	float: left;
+	width: 45%;
+	margin-left: -15px;
+
+}
+a#Registrar {
+        
+        margin-right: -15px;
+        width: 45%;
+        float: Right;
+	background: none;
+	border: solid 2px white;
+	border-radius: 5px;
+	color: white;
+	padding: 8px;
+        text-decoration:none;
+        text-align:center;
+}
+a#Registrar:hover {
+        
+        background-color: #274B94;
+	border-color: #274B94;
+}
+
+#inReg{
+
+	float: right;
+	width: 45%; 
+
+}
+
+#inpUsu, #inpPas{
+
+	padding: 5px;
+	margin: 15px;
+	margin-right: 0px;
+	padding: 10px;
+
+}
+
+#inp{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.icon{
+
+	padding: 10px;
+	border-radius: 0px 5px 5px 0px;
+
+}
+
+.boxIcon{
+
+	border-radius: 5px 0px 0px 5px;
+
+}
+
+#parrafoUno, #parrafoDos, #parrafoTres{
+
+	text-align: center;
+	font-size: 4rem;
+	width: 100%;
+	font-family: KeepCalm-Medium;
+
+}
+
+#iniTit{
+
+	width: 329px;
+	font-size: 2rem;
+	text-align: left;
+	color: white;
+	font-family: CabinCondensed-Regular;
+}
+
+
+#logo{
+
+	height: 100%;
+	width: 180px;
+	font-size: 2rem;
+	text-align: left;
+	padding-left: 20px;
+	float: left;
+	display: flex;
+	align-items: center;
+	font-family: Amaranth-Regular;
+
+}
+
+#titQue, #infQue{
+
+	width: 50%;
+	height: 50%;
+
+}
+
+#titQue{
+
+	float: right;
+
+}
+
+#infQue{
+
+	float: left;
+	text-align: justify;
+
+}

@@ -1,0 +1,293 @@
+html, body{
+
+	padding: 0pX;
+	margin: 0pX;
+	width: 100%;
+	height: 120%;
+
+}
+
+a{
+
+	color: white;
+	text-decoration: none;
+
+}
+
+body{
+
+	background-image: url('../RESOURCE/imagenes/guia.jpg');
+	background-position: 100%, 100%;
+	background-repeat: no-repeat;
+	color: white;
+
+}
+
+div#capaUno{
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+header{
+
+	width: 100%;
+	height: 50px;
+	background-color: rgba(39, 75, 148, 0.7);
+	position: absolute;
+
+}
+
+header > div{
+
+	width: 180px;
+	height: 50px;
+	padding-left: 20px;
+	float: left;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Amaranth-Regular;
+
+}
+
+header > nav{
+
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	margin: 0px;
+	margin-left: 50px;
+
+}
+
+header > nav > ul {
+
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+
+}
+
+header > nav > ul > li{
+
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	padding-right: 50px;
+	padding-bottom: 0px;
+
+}
+
+header > nav > ul > li > a{
+
+	text-decoration: none;
+	font-family: CabinCondensed-Regular;
+
+}
+
+header > nav > ul > li > a > div{
+
+	width: 100%;
+	height: 5px;
+
+}
+
+header > nav > ul > li > a:hover > div{
+
+	width: 100%;
+	height: 5px;
+	background-color: #FF8300;
+
+}
+
+section{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+
+section > article{
+
+	width: 425px;
+	height: 615px;
+	border-radius: 5px;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgba(39, 75, 148, 0.7);
+	box-shadow: -3px -3px 90px black;
+
+}
+
+section > article > div > h1{
+
+	text-align: left;
+	font-family: Amaranth-Regular;
+	margin-bottom: 20px;
+
+}
+
+section > article > div > h2{
+
+	text-align: left;
+	font-family: KeepCalm-Medium;
+
+}
+
+section > article > form{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+
+}
+
+section > article > form > div{
+
+	display: flex;
+	
+}
+
+
+input[type="text"], input[type="password"]{
+
+	width: 250px;
+	background: none;
+	border: solid 2px white;
+	background-color: 5px;
+	color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px 0 0 5px;
+
+}
+
+input[type="text"]:hover, input[type="password"]:hover{
+
+	border-color: #FF8300;
+
+}
+
+input[type="text"]:hover + img, input[type="password"]:hover + img{
+
+	background-color: #FF8300;
+
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+
+	outline: none;
+	border-color: #FF8300; 
+
+}
+
+input[type="text"]:focus + img, input[type="password"]:focus + img{
+
+	background-color: #FF8300;
+	fill: #FF8300;
+
+}
+
+
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder{
+
+	color: white; 
+
+}
+
+input[type="submit"]{
+
+	width: 100px;
+	background: none;
+	border: solid 2px white;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+input[type="submit"]:hover{
+
+	background-color: #FF8300;
+	border-color: #FF8300;
+	color: #274B94;
+	margin-left: 50px;
+	margin-right: 50px;
+
+
+}
+
+input[type="submit"]:focus{
+
+	outline: none;
+
+}
+
+section > article > form > div > img{
+
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+	border-radius: 0 5px 5px 0;
+	background: white;
+
+}
+
+
+h1{
+
+	font-size: 2.5em;
+
+}
+
+h2{
+
+	font-size: 1.7em;
+
+}
+
+h3{
+
+	font-size: 1.4em;
+
+}
+
+h4{
+
+	font-size: 1em;
+
+}
+
+h5{
+
+	font-size: 0.8em;
+
+}
+
+h6{
+
+	font-size: 0.6em;
+
+}

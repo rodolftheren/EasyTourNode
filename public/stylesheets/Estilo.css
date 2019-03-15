@@ -1,0 +1,340 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/09/2018, 02:01:25 PM
+    Author     : AMD
+*/
+
+*{
+    
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+html, body{
+    
+    margin: 0auto;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+    
+    margin: 0px;
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-image: url("../RESOURCE/fondo-Inicio.jpg");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.background{
+    
+    width: 100vw;
+}
+
+/*div{
+    border: solid 1px white;
+}*/
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row-1 {
+    height: 8.33vh;
+}
+
+.row-2 {
+    height: 16.66vh;
+}
+
+.row-3 {
+    height: 2vh;    
+}
+
+.row-4 {
+    height: 33.33vh;
+}
+
+.row-5 {
+    height: 41.66vh;
+}
+
+.row-6 {
+    height: 50vh;
+}
+
+.row-7 {
+    height: 58.33vh;
+}
+
+.row-8 {
+    height: 66.66vh;
+}
+
+.row-9 {
+    height: 75vh;
+}
+
+.row-10 {
+    height: 83.33%;
+}
+
+.row-11 {
+    height: 91.66vh;
+}
+
+.row-12 {
+    height: 100vh;
+}
+
+.flexContainer{
+    
+    display: flex;
+    
+}
+
+.flexItem{
+    
+    flex-grow: 1;
+    flex-basis: 0;
+    
+}
+
+.row{
+    
+    flex-direction: row;
+    
+}
+
+.colum{
+    
+    flex-direction: column;
+    
+}
+
+.centerH{
+    
+    justify-content: center;
+    
+}
+
+.centerW{
+    
+    align-items: center;
+    
+}
+
+input[type=button], input[type=submit]{
+    
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+    padding: 10px;
+    width: 100px;
+    outline: none;
+    
+}
+
+input[type=button]:hover, input[type=submit]:hover{
+    
+    border: solid 1px white;
+    background-color: white;
+    color: #17CA94;
+    
+}
+
+input[type=text], input[type=password]{
+    
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+    padding: 10px;
+    width: 300px;
+    color: white;
+    
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    
+    border-color: #17CA94;
+    outline: 0 none;
+    
+}
+
+/*degradado del sidebar*/
+.background{
+    
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.padding{
+    
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.paddingTitle{
+    
+    padding-left: 10%;
+    
+}
+
+.fontResponsive{
+    
+    font-size: 0.8em;
+    
+}
+
+.logo{
+    
+    font-size: 8rem;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.logoBar{
+    
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.eslogan{
+    font-size: 1.8rem;
+}
+
+.info{
+    
+    /*filter: blur(6px);*/
+    
+}
+
+.padding{
+    
+    padding: 10px;
+    
+}
+
+.allDisplay{
+    
+    height: 100vh;
+    
+}
+
+#titulo{
+    
+    font-size: 2rem;
+    padding: 20px;
+    
+}
+
+#nom{
+    padding: 20px;
+}
+
+.borde{
+    
+    border: solid 1px white;
+    border-radius: 5px;
+    
+}
+
+.rotar{
+    
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+    
+}
+
+.margin-TB{
+    
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    
+}
+
+.margin-LR{
+    
+    margin-right: 0.5vw;
+    margin-right: 0.5vw;
+    
+}
+
+.opcion{
+    
+    border-right: none; 
+    
+}
+
+.opcion:hover{
+    
+    border-color: #17CA94;
+    color: #17CA94;
+    background: white;
+    
+}
+#contenedor, #formulario{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    items-align: center;
+    justify-content: center;
+}

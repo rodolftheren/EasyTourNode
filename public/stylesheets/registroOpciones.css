@@ -1,0 +1,213 @@
+html, body{
+
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	color: white;
+
+}
+
+a{
+
+	color: white;
+
+}
+
+header{
+
+	width: 100%;
+	height: 140px;
+	background-color: rgba(39, 75, 148, 0.7);
+	position: absolute;
+	padding-bottom: 30px;
+
+}
+
+header > section{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	font-family: Amaranth-Regular;
+
+}
+
+header > section > h1{
+
+	margin-left: 40px;
+	margin-right: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+header > section > h1{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+
+}
+
+header > nav{
+
+	width: 100%;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+header > nav > ul {
+
+	width: 100%;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+
+}
+
+header > nav > ul > li {
+
+	width: 100px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+header > nav > ul > li {
+
+	width: 100px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+header > nav > ul > li > a{
+
+	text-decoration: none;
+	font-family: CabinCondensed-Regular;
+
+}
+header > nav > ul > li > a:hover > h3{
+
+	color: #93A5CA;
+
+}
+
+header > nav > ul > li > a:hover > h3 > div{
+
+	background-color: #FF8300;
+	width: 100%;
+	height: 5px;
+
+}
+
+h1{
+
+	font-size: 2.5em;
+
+}
+
+h2{
+
+	font-size: 1.7em;
+
+}
+
+h3{
+
+	font-size: 1.4em;
+
+}
+
+h4{
+
+	font-size: 1em;
+
+}
+
+h5{
+
+	font-size: 0.8em;
+
+}
+
+h6{
+
+	font-size: 0.6em;
+
+}
+
+section[class="opcReg"]{
+
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+
+section#opcTur{
+
+	background-image: url(../RESOURCE/imagenes/turista.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+section#opcGui{
+
+	background-image: url(../RESOURCE/imagenes/guia.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+
+section[class="opcReg"] > article{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+section[class="opcReg"] > article > a{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	font-family: KeepCalm-Medium;
+
+}
+
+section[class="opcReg"] > article > a:hover{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	font-size: 1.6em;
+	font-family: KeepCalm-Medium;
+
+}

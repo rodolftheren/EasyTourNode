@@ -1,0 +1,123 @@
+@font-face{
+
+	font-family: KeepCalm-Medium;
+	src: url(../RESOURCE/fuentes/KeepCalm-Medium.ttf); 
+
+}
+
+@font-face{
+
+	font-family: Amaranth-Bold;
+	src: url(../RESOURCE/fuentes/Amaranth-Bold.ttf); 
+
+}
+
+@font-face{
+
+	font-family: Amaranth-BoldItalic;
+	src: url(../RESOURCE/fuentes/Amaranth-BoldItalic.ttf); 
+
+}
+
+@font-face{
+
+	font-family: Amaranth-Italic;
+	src: url(../RESOURCE/fuentes/Amaranth-Italic.ttf); 
+
+}
+
+@font-face{
+
+	font-family: Amaranth-Regular;
+	src: url(../RESOURCE/fuentes/Amaranth-Regular.ttf); 
+
+}
+
+@font-face{
+
+	font-family: CabinCondensed-Bold;
+	src: url(../RESOURCE/fuentes/CabinCondensed-Bold.ttf); 
+
+}
+
+@font-face{
+
+	font-family: CabinCondensed-Medium;
+	src: url(../RESOURCE/fuentes/CabinCondensed-Medium.ttf); 
+
+}
+
+@font-face{
+
+	font-family: CabinCondensed-Regular;
+	src: url(../RESOURCE/fuentes/CabinCondensed-Regular.ttf); 
+
+}
+
+@font-face{
+
+	font-family: CabinCondensed-SemiBold;
+	src: url(../RESOURCE/fuentes/CabinCondensed-SemiBold.ttf); 
+
+}
+
+/*#a{
+
+	font-family: KeepCalm-Medium;
+	font-weight: bold;
+
+}
+
+#b{
+
+	font-family: Amaranth-Bold;
+
+}
+
+#c{
+
+	font-family: Amaranth-BoldItalic;
+
+}
+
+#d{
+
+	font-family: Amaranth-Italic;
+
+}
+
+#e{
+
+	font-family: Amaranth-Regular;
+
+}
+
+#f{
+
+	font-family: CabinCondensed-Bold;
+
+}
+
+#g{
+
+	font-family: CabinCondensed-Medium;
+
+}
+
+#h{
+
+	font-family: CabinCondensed-Regular;
+
+}
+
+#i{
+
+	font-family: CabinCondensed-SemiBold;
+
+}
+
+*{
+
+	font-size: 2em;
+
+}*/

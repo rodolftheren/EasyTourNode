@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/10/2018, 07:38:29 PM
+    Author     : AMD
+*/
+
+li{
+    
+    list-style: none;
+    
+}
+
+li:hover{
+    
+    background: white;
+    
+}
+
+li:hover > a{
+    
+    color: #17CA94;
+    
+}
+
+a:visited, a:link{
+    
+    text-decoration: none;
+    
+}
+
+.border-L{
+    
+    border-left: solid 1px white;
+    
+}
+
+.border-R{
+    
+    border-right: solid 1px white;
+    
+}
+
+.border-T{
+    
+    border-top: solid 1px white;
+    
+}
+
+.border-B{
+    
+    border-bottom: solid 1px white;
+    
+}
+
+.imagen{
+    
+    background: lightgray;
+    position: relative;
+    
+}
+
+.imagen > img{
+    
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.imagen img{
+    
+    max-width: 100%;
+    height: 100%;
+    
+}
+
+.imagen img:hover{
+    
+    filter: brightness(40%) blur(3px);
+    
+}
+
+.infLugar{
+    
+    position: absolute;
+    z-index: 100;
+    display: none;
+    
+}
+
+.imagen img:hover ~ .infLugar{
+    
+    display: flex;
+    
+}
+
+.imagen .infLugar:hover{
+    
+    display: flex;
+           
+}
+
+.imagen .infLugar:hover ~ img{
+    
+    display: none;
+    
+}
+
