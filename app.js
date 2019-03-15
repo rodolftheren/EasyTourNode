@@ -1,5 +1,6 @@
 var createError = require('http-errors');
 var express = require('express');
+var session = require('express-session');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var morgan = require('morgan');
@@ -9,8 +10,10 @@ var passport = require('passport');
 var flash    = require('connect-flash');
 
 var app = express();
+require('./config/passport')(passport);
 // view engine setup
-var server = require('https').Server(app);
+var server = require('http').Server(app);
+var port = process.env.PORT || 443;
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 

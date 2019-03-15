@@ -53,9 +53,4 @@ module.exports = function(app, passport)
 
     // app.get('/cliente/asesor', autorizacionc, consc.asesor);
 
-
-
-
 };
-
-module.exports = router;
